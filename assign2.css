@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin-top: 0%;
+    width: 100%;
+    font-family: sans-serif;
+
+
+}
+#name_section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+body{
+    background-color: #6E85B2;
+    color: white;
+}
+#address{
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 500px;
+    font-family: sans-serif;
+    
+}
+#contact_number{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  black;
+    border-radius: 10px;
+    width: 500px;
+    font-family: sans-serif;
+}
+#rating{
+     background-color: black;
+     padding-top: 10px;
+     padding-bottom: 15px;
+     border-radius: 10px;
+     width: 500px;
+     font-family: sans-serif;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-family: sans-serif;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button:hover{
+    background-color: blueviolet; 
+    color: white;
+}
+@media(max-width: 600px){
+    h1{
+       font-size: 30px; 
+    }
+    #name_section{
+        width: 280px;
+    }
+    #address{
+        width: 280px;
+    }
+    #contact_number{
+        width: 280px;
+    }
+    #rating{
+        width: 280px;
+    }
+
+}

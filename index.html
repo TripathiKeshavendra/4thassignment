@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assign2.css">
+</head>
+<body>
+   <h1>SURVEY FORM</h1>
+<form>
+    <div id="name_section">
+       <h2>NAME</h2>
+            <label for="first_name">First Name :</label>
+            <input type="text" required  name="first_name" id=""><br><br><br>
+            <label for="last_name">Last Name :</label>
+            <input type="text" required name="last_name" id="">
+    </div><br><br>
+    <div id="address" class="div1" style="background-color: black">
+            <h2>ADDRESS</h2>
+                            <label for="address 1">Address</label><br><input type="text"  required name="street_address" id=""><br><br>
+                            <label for="city">City</label><br><input type="text" required name="city" id=""><br><br>
+                            <label for="state">State</label><br><input type="text" required name="state" id=""><br><br>
+                            <label for="pin code">Pin Code</label><br><input type="number" required name="pincode" id="">
+
+    </div><br><br>
+        <div action="" id="contact_number" class="div1">
+            <h2>CONTACT NUMBER</h2>
+            <label for="contact number">Contact Number :</label>
+            <input type="number" required name="contact_number" id="">
+        </div><br><br>
+    <div style="text-align: center;" id="rating" class="div1">
+            <h2>RATING</h2>
+                            <label for="quality">Quality Of Product :</label><br><br>
+                            Excellent<input type="radio" value="Excellent"  required name="quality_of_product_recieved_rating" id="">
+                            Good<input type="radio" value="Good" required name="quality_of_product_recieved_rating" id="">
+                            Bad<input type="radio" value="Bad" required name="quality_of_product_recieved_rating" id=""><br><br>
+                            <label for="quality">Value For Money :</label><br><br>
+                            Excellent<input type="radio" value="Excellent" required name="value_for_money_rating" id="">
+                            Good<input type="radio" value="Good" required name="value_for_money_rating" id="">
+                            Bad<input type="radio" value="Bad" required name="value_for_money_rating" id=""><br><br>
+                            <label for="quality">Delievery :</label><br><br>
+                            Excellent<input type="radio" value="Excellent" required name="delievery_rating" id="">
+                            Good<input type="radio" value="Good" required  name="delievery_rating" id="">
+                            Bad<input type="radio" value="Bad" required name="delievery_rating" id="">
+    </div><br><br>
+    <div style="text-align: center;">
+        <button id="submit" type="submit">Submit</button>
+    </div>
+</form>
+    
+</body>
+</html>
